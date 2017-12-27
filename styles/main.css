@@ -25,14 +25,7 @@ body {
     left: 2rem;
 }
 
-
-@media only screen and (max-width: 500px){
-  .selling-points{
-    display: block;
-  }
-  .point {
-    display: block;
-    width: 75%;
-    margin: auto;
-  }
+.container{
+  max-width: 64rem;
+  margin: 0 auto;
 }

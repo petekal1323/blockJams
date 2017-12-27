@@ -28,15 +28,11 @@ body.landing {
 
 .selling-points {
     position: relative;
-    display: table;
-    width: 100%;
 }
 
 .point {
-    display: table-cell;
     position: relative;
     padding: 2rem;
-    width: 33.3%;
     text-align: center;
 }
 
@@ -49,30 +45,4 @@ body.landing {
 .ion-iphone {
     color: rgb(233,50,117);
     font-size: 5rem;
-}
-
-
-/* smallest screen */
-@media (min-width: 320px){
-    html {
-      font-size: 112%;
-    }
-}
-/* Medium screens (640px) */
-@media (max-width: 640px) {
-    html {
-      font-size: 112%;
-    }
-    .point{
-      display: block;
-      width: 100%;
-      margin: 0 auto;
-    }
-}
-
-/* Large screens (1024px) */
-@media (min-width: 1024px) {
-    html{
-      font-size: 120%;
-    }
 }
